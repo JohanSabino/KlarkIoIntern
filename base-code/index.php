@@ -41,6 +41,7 @@
         <!--clear the styles used in each browser on the next codeLine-->
         <link href="styles/main.css?v=<?php echo filemtime('styles/main.css');?>"rel="stylesheet" type="text/css" /> 
         <link href="styles/raw-main.css?v=<?php echo filemtime('styles/raw-main.css');?>"rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="./styles/_breakpoints.scss" class="href">
         <!-- our custom styles end-->
     </head>
     <!--end::Head-->
@@ -1572,7 +1573,7 @@
 
                         </div>
                         <div class="carousel-item">
-                        <div class="modal-content">
+<div class="modal-content">
     <div class="modal-header bg-secondary">
         <div class="container">
             <div class="row">
@@ -2313,9 +2314,9 @@
             />
         </div>
     </div>
-</div>
+    </div>
 
-                        </div>
+ </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -2341,8 +2342,8 @@
         ></script>
         <script src="bootstrap-modal-carousel.js"/></script/>
 
-        <!--end::Javascript-->
+        
     </body>
-    <!--end::Body-->
+    
 </html>
 

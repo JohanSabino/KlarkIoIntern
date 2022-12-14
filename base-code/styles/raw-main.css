@@ -13,6 +13,7 @@ put your css styles here, incase you dont use scss
 
 Note: don't write css for something that can be accomplished using bootstrap
 */
+
 .modal_container {
     display: grid;
     grid-template-columns: 2;
@@ -21,6 +22,8 @@ Note: don't write css for something that can be accomplished using bootstrap
 .modal-content {
     margin: 0;
     padding: 0;
+    overflow-y: scroll;
+    height: 45vw;
 }
 
 #datetimepicker {
@@ -29,10 +32,7 @@ Note: don't write css for something that can be accomplished using bootstrap
     padding: 0;
     text-align: center;
 }
-.modal-body {
-    height: 40vw;
-    overflow-y: auto;
-}
+
 /* #carousel_persons {
     justify-content: center;
     margin: 0 0 5px 0;
@@ -123,7 +123,6 @@ legend {
 #buttonicon {
     display: block;
     font-size: xx-small;
-    height: 95%;
     border: 1px solid black;
     border-radius: 10px;
     margin: 0 5px;
