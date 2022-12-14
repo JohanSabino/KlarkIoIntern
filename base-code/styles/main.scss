@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'breakpoints';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+// Put your SCSS below, remember to compile it into CSS(your can use a vs code plugin called "live sass")
+
+//Note: don't write scss for something that can be accomplished using bootstrap
+$theme-colors: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'success': $success,
+    'info': $info,
+    'warning': $warning,
+    'danger': $danger,
+    'light': $light,
+    'dark': $dark,
+);
+$aspect-ratios: (
+    '1x1': 100%,
+    '4x3': calc(3 / 4 * 100%),
+    '16x9': calc(9 / 16 * 100%),
+    '21x9': calc(9 / 21 * 100%),
+);
